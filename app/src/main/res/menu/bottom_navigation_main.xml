@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/delete_icon"
+        android:title="@string/dashboard"/>
+
+    <item
+        android:id="@+id/navigation_catalog"
+        android:icon="@drawable/delete_icon"
+        android:title="@string/catalog"/>
+
+    <item
+        android:id="@+id/navigation_reports"
+        android:icon="@drawable/delete_icon"
+        android:title="@string/reports"/>
+</menu>

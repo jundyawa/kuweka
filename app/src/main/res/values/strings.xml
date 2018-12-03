@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="app_name">Kuweka</string>
+
+    <string name="main_unit">L</string>
+
+    <!-- Supplier's Page -->
+    <string name="top_title">Milk Today</string>
+    <string name="button_title">Add Milk</string>
+
+
+    <!-- Login Page -->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="button_signin">Sign In</string>
+    <string name="button_signup">Create an Account</string>
+    <string name="button_next">Next</string>
+
+    <!-- Main Bottom Navigation Toolbar -->
+    <string name="dashboard">Dashboard</string>
+    <string name="catalog">Catalog</string>
+    <string name="reports">Reports</string>
+
+    <!-- Catalog Fragment -->
+    <string name="search">Search…</string>
+
+    <!-- Error Messages -->
+    <string name="username_taken">This username is already taken</string>
+    <string name="wrong_password">Wrong Password</string>
+    <string name="username_doesnt_exists">Username does not exists</string>
+
+</resources>

@@ -1,0 +1,143 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackground"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-4dp"
+            android:orientation="horizontal">
+
+            <custom_keyboard.Rectangle_Button
+                android:id="@+id/button_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1"
+                android:theme="@style/myAppTheme.ButtonsKeyboard" />
+
+            <custom_keyboard.Rectangle_Button
+                android:id="@+id/button_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2"
+                android:theme="@style/myAppTheme.ButtonsKeyboard" />
+
+            <custom_keyboard.Rectangle_Button
+                android:id="@+id/button_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="3"
+                android:theme="@style/myAppTheme.ButtonsKeyboard" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-4dp"
+            android:layout_marginTop="-4dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <custom_keyboard.Rectangle_Button
+                android:id="@+id/button_4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="4"
+                android:theme="@style/myAppTheme.ButtonsKeyboard" />
+
+            <custom_keyboard.Rectangle_Button
+                android:id="@+id/button_5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="5"
+                android:theme="@style/myAppTheme.ButtonsKeyboard" />
+
+            <custom_keyboard.Rectangle_Button
+                android:id="@+id/button_6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="6"
+                android:theme="@style/myAppTheme.ButtonsKeyboard" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-4dp"
+            android:layout_marginTop="-4dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <custom_keyboard.Rectangle_Button
+                android:id="@+id/button_7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="7"
+                android:theme="@style/myAppTheme.ButtonsKeyboard" />
+
+            <custom_keyboard.Rectangle_Button
+                android:id="@+id/button_8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="8"
+                android:theme="@style/myAppTheme.ButtonsKeyboard" />
+
+            <custom_keyboard.Rectangle_Button
+                android:id="@+id/button_9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="9"
+                android:theme="@style/myAppTheme.ButtonsKeyboard" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-4dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <custom_keyboard.Rectangle_Button
+                android:id="@+id/button_extra"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:theme="@style/myAppTheme.ButtonsKeyboard" />
+
+            <custom_keyboard.Rectangle_Button
+                android:id="@+id/button_0"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:theme="@style/myAppTheme.ButtonsKeyboard" />
+
+            <custom_keyboard.Rectangle_Button
+                android:id="@+id/button_delete"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/delete_icon"
+                android:theme="@style/myAppTheme.ButtonsKeyboard" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</merge>

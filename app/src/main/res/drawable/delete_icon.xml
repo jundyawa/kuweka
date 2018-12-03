@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false">
+        <bitmap android:src="@android:drawable/ic_input_delete"
+            android:tint="@color/colorTextDark" />
+    </item>
+    <item android:state_checked="true">
+        <bitmap android:src="@android:drawable/ic_input_delete" android:tint="@color/colorTextDark" />
+    </item>
+    <item>
+        <bitmap android:src="@android:drawable/ic_input_delete"
+            android:tint="@color/colorTextDark" />
+    </item>
+</selector>

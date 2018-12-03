@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <!-- Single ListItem -->
+
+    <TextView
+        android:id="@+id/name_items"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:maxLines="1"
+        android:padding="16dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorTextDark"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tag_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="end"
+        android:maxLines="1"
+        android:padding="16dp"
+        android:textAlignment="textEnd"
+        android:textColor="@color/colorTextLight"
+        android:textSize="22sp" />
+
+
+</LinearLayout>
